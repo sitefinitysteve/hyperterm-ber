@@ -1,16 +1,17 @@
 //https://www.color-blindness.com/color-name-hue/
-const valhalla = "#262335";
-const persianRose = "#F92AAD";
+const aqua = "#03edf9";
+const persianRose = "#FC28A8";
 const salmon = "#f97e72";
-const tolopea = "#241B2F";
 const midnightExpress = "#171520";
+const parisDaisy = "#fff951";
+const valhalla = "#262335";
 const veryLightGrey = "#cccccc";
 
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     backgroundColor: valhalla,
     borderColor: valhalla,
-    cursorAccentColor: "#03edf9",
+    cursorAccentColor: "${aqua}",
     cursorColor: salmon,
     cursorShape: 'BEAM',
     fontFamily: "'Fira Mono', Consolas, 'Courier New', monospace", 
@@ -44,7 +45,7 @@ exports.decorateConfig = (config) => {
       }
 
       .tab_active {
-        box-shadow: inset 0 -5px 25px #fc28a825;
+        box-shadow: inset 0 -5px 25px #FC28A825;
       }
 
       .tab_active::after {
@@ -54,7 +55,7 @@ exports.decorateConfig = (config) => {
           left: 1px;
           right: 0;
           height: 4px;
-          background: linear-gradient(to right, #fc28a8, #03edf9) !important;
+          background: linear-gradient(to right, ${persianRose}, ${aqua}) !important;
           opacity: 1;
       }
 
@@ -63,7 +64,7 @@ exports.decorateConfig = (config) => {
       }
 
       .header_hamburgerMenuLeft:hover {
-        background: linear-gradient(to bottom, #fff951 25%, #fc28a8);
+        background: linear-gradient(to bottom, ${parisDaisy} 25%, ${persianRose});
       }
 
       .terms_termsNotShifted::before {
@@ -73,7 +74,7 @@ exports.decorateConfig = (config) => {
           left: 0;
           right: 0;
           height: 4px;
-          background: linear-gradient(to right, #fc28a8, #03edf9) !important;
+          background: linear-gradient(to right, ${persianRose}, ${aqua}) !important;
           opacity: 1;
       }
     `

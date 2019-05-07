@@ -1,0 +1,13 @@
+{
+    "name": "hyperterm-ber",
+    "description": "Based off of the amazing Synthwave84 VSCode theme by https://github.com/robb0wen",
+    "type": "theme",
+    "preview": "https://raw.githubusercontent.com/sitefinitysteve/hyperterm-ber/master/notabs.PNG",
+    "colors": [
+      "#FC28A8",
+      "#262335",
+      "#f97e72",
+      "#fff951"
+    ],
+    "dateAdded": "1557257228401"
+}
