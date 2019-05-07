@@ -1,0 +1,22 @@
+{
+  "name": "hyperterm-ber",
+  "version": "0.0.1",
+  "description": "Based off of the amazing Synthwave VSCode theme by https://github.com/robb0wen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyper",
+    "theme",
+    "synthwave",
+    "ber",
+    "color scheme"
+  ],
+  "author": "Steve McNiven-Scott",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitefinitysteve/hyperterm-ber.git"
+  },
+  "license": "ISC"
+}
